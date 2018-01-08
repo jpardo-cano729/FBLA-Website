@@ -1,4 +1,4 @@
-/** Table of Content 
+/** Table of Content
 
 [Master Stylesheet]
 
@@ -52,7 +52,7 @@ Sidebar heading:	font:18px/18px 'Roboto', sans-serif;
 
 [Table of contents]
 
-/** Table of Content 
+/** Table of Content
 
 - 	Wrapper    	  					Line 	000  	-	000
 
@@ -2069,7 +2069,7 @@ strong.logo-2 {
 	float: left;
 	width: 100%;
 	padding: 80px 0 0 0;
-	background-image: url(../images/testimonials-bg.png);
+	background-image: url(../images/human_banner.png);
 	background-repeat: no-repeat;
 	background-position: left top;
 	background-size: cover;
@@ -2763,7 +2763,7 @@ strong.logo-2 {
 .facts-box {
 	float: left;
 	width: 100%;
-	background-image: url(../images/facts-bg.png);
+	background-image: url(../images/logo_banner.png);
 	background-repeat: no-repeat;
 	background-position: left top;
 	background-size: cover;
