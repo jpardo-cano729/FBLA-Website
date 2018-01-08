@@ -19,6 +19,10 @@
 /*===========================================================================*/
 
 @media (min-width: 1200px) {
+
+.cp_side-menu{
+	display: none;
+}
 #nav li ul li > ul {
 	right: inherit;
 	left: 100%;
