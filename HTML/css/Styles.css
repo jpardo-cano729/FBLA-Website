@@ -1,6 +1,5 @@
-.thumb img {
-  width: 50%;
-  height: 200px;
+.thumb a img {
+  max-width: 64px;
 }
 
 #Jimg{
