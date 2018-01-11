@@ -51,12 +51,7 @@
             <div class="cp_side-navigation">
               <nav>
                 <ul class="navbar-nav">
-                  <li class="active"><a href="index.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Home<span class="caret"></span></a>
-                    <ul class="dropdown-menu" role="menu">                      <li><a href="index.html">Home 1</a></li>
-                      <li><a href="index-3.html">Home 3</a></li>                      <li><a href="index-2.html">Home 2</a></li>
-                      <li><a href="index-4.html">Home 4</a></li>
-                    </ul>
-                  </li>
+                  <li class="active"><a href="index-3.html" role="button" aria-expanded="false">Home</a>                  </li>
                   <li class="dropdown"><a href="#"  class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Jobseeker<span class="caret"></span></a>
                     <ul class="dropdown-menu" role="menu">
                       <li><a href="candidates-listings.html">Jobseeker Listing</a></li>
@@ -115,13 +110,7 @@
             <strong class="logo"><a href="index.html"><img src="images/logo.png" alt="logo"></a></strong> </div>
           <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav" id="nav">
-              <li><a href="#">Home</a>
-                <ul>
-                  <li><a href="index.html">Home 1</a></li>
-                  <li><a href="index-2.html">Home 2</a></li>
-                  <li><a href="index-3.html">Home 3</a></li>
-                  <li><a href="index-4.html">Home 4</a></li>
-                </ul>
+              <li><a href="index-3.html">Home</a>
               </li>
               <li><a href="candidates-listings.html">Jobseekers</a>
                 <ul>
@@ -204,164 +193,61 @@
   <!--INNER BANNER START-->
   <section id="inner-banner">
     <div class="container">
-      <h1>Homer Simpson</h1>
+      <h1>Contact us</h1>
     </div>
   </section>
   <!--INNER BANNER END-->
 
   <!--MAIN START-->
   <div id="main">
-    <!--RECENT JOB SECTION START-->
-    <section class="resumes-section padd-tb">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-9 col-sm-8">
-            <div class="resumes-content">
-              <div class="box">
-                <div class="frame"><a href="#"><img src="images/resumes/resumes-img-1.jpg" alt="img"></a></div>
-                <div class="text-box">
-                  <h2><a href="#">Homer Simpson</a></h2>
-                  <h4>UX/UI Graphic Designer, Development (Mid Level)</h4>
-                  <div class="clearfix"> <strong><i class="fa fa-map-marker"></i>Mountain View, CA</strong> <strong><i class="fa fa-globe"></i><a href="#">https://www.jobinn.com</a></strong> </div>
-                  <span class="price"><i class="fa fa-money"></i>$7000 - $7500</span>
-                  <div class="tags"> <a href="#"><i class="fa fa-tags"></i>Product Management,</a> <a href="#">Graphic Design,</a> <a href="#">HTML,</a> <a href="#">Development,</a> <a href="#">WordPress,</a> <a href="#">Content</a> </div>
-                  <div class="btn-row"> <a href="#" class="resume"><i class="fa fa-file-text-o"></i>Resume</a> <a href="#" class="contact">Contact</a> <a href="#" class="login">Login to Bookmark this Resume</a> </div>
-                </div>
+
+    <!--CONTACT US START-->
+    <section class="contact-section">
+      <div class="map-box">
+        <div id="map_contact_4" class="map_canvas active"></div>
+        <div class="contact-form padd-tb">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-9 col-sm-8">
+                <h2>Get in Touch</h2>
+                <form action="contact-form.php" method="post">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <input name="name" required pattern="[a-zA-Z ]+" type="text" placeholder="Name">
+                    </div>
+                    <div class="col-md-4">
+                      <input name="email" required pattern="^[a-zA-Z0-9-\_.]+@[a-zA-Z0-9-\_.]+\.[a-zA-Z0-9.]{2,5}$" type="text" placeholder="Email">
+                    </div>
+                    <div class="col-md-4">
+                      <input name="subject" required type="text" placeholder="Subject">
+                    </div>
+                    <div class="col-md-12">
+                      <textarea name="comments" required cols="10" rows="10" placeholder="Comments"></textarea>
+                    </div>
+                    <div class="col-md-12">
+                      <input name="comments" type="submit" value="Submit">
+                    </div>
+                  </div>
+                </form>
               </div>
-              <div class="summary-box">
-                <h4>Summary About Me</h4>
-                <p>Life Insurance LLC. In marketing communications, we dream it and create it. All of the company’s promotional and communication needs are completed in-house by these “creatives” in an advertising agency-based set-up. This includes everything from advertising, promotions and print production to media relations, exhibition coordination.</p>
-                <p>If you’re a dreamer, gather up your portfolio and show us your vision. Garmin is adding one more enthusiastic individual to our in-house Communications expert.</p>
-              </div>
-              <div class="summary-box">
-                <h4>Qualifications</h4>
-                <div class="outer"> <strong class="title">Master In Multimedia and 3D Animation Production</strong>
-                  <div class="col"> <span>2010 - 2014</span>
-                    <p>Sed porttitor lectus nibh. Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Cras ultricies ligula sed magna dictum porta. Cras ultricies ligula sed magna dictum porta. Donec sollicitudin molestie malesuada. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-                  </div>
-                </div>
-                <div class="outer"> <strong class="title">Post Graduate</strong>
-                  <div class="col"> <span>2007 - 2009</span>
-                    <p>Etiam luctus lobortis massa in pulvinar. Maecenas nunc odio, faucibus in malesuada a, dignissim at odio. Aenean eleifend urna. Duis ac augue sit amet ex blandit facilisis sit amet ut dui. </p>
-                  </div>
-                </div>
-                <div class="outer padd-none"> <strong class="title">Massachusetts Institute of Technology</strong>
-                  <div class="col"> <span>2003- 2006</span>
-                    <p>Etiam luctus lobortis massa in pulvinar. Maecenas nunc odio, faucibus in malesuada a, dignissim at odio. Aenean eleifend urna. Duis ac augue sit amet ex blandit facilisis sit amet ut dui. Nulla pharetra fermentum mollis. Duis in tempor tortor. Suspendisse vitae nisl diam. Proin eu erat vestibulum, suscipit quam et, cursus ante.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="summary-box">
-                <h4>Work Experience</h4>
-                <div class="outer"> <strong class="title">Product Manager at <b>(School of Design &amp; Multimedia)</b></strong>
-                  <div class="col"> <span>2010 - 2014</span>
-                    <p>Sed porttitor lectus nibh. Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Cras ultricies ligula sed magna dictum porta. Cras ultricies ligula sed magna dictum porta. Donec sollicitudin molestie malesuada. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-                  </div>
-                </div>
-                <div class="outer"> <strong class="title">Chief Software Analyst</strong>
-                  <div class="col"> <span>2007 - 2009</span>
-                    <p>Etiam luctus lobortis massa in pulvinar. Maecenas nunc odio, faucibus in malesuada a, dignissim at odio. Aenean eleifend urna. Duis ac augue sit amet ex blandit facilisis sit amet ut dui. </p>
-                  </div>
-                </div>
-                <div class="outer padd-none"> <strong class="title">Cyber Development Manager</strong>
-                  <div class="col"> <span>2003- 2006</span>
-                    <p>Etiam luctus lobortis massa in pulvinar. Maecenas nunc odio, faucibus in malesuada a, dignissim at odio. Aenean eleifend urna. Duis ac augue sit amet ex blandit facilisis sit amet ut dui. Nulla pharetra fermentum mollis. Duis in tempor tortor. Suspendisse vitae nisl diam. Proin eu erat vestibulum, suscipit quam et, cursus ante.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="skills-box">
-                <h4>Skills</h4>
-                <div class="progress-box"> <strong class="title">Adobe Photoshop</strong>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="min-width: 70%;"> <span> 70%</span> </div>
-                  </div>
-                </div>
-                <div class="progress-box"> <strong class="title">Adobe Illustrator</strong>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="min-width: 49%;"> <span> 49%</span> </div>
-                  </div>
-                </div>
-                <div class="progress-box"> <strong class="title">WordPress</strong>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="min-width: 85%;"> <span> 85%</span> </div>
-                  </div>
-                </div>
-                <div class="progress-box"> <strong class="title">Development</strong>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="min-width: 60%;"> <span> 60%</span> </div>
-                  </div>
-                </div>
-                <div class="progress-box"> <strong class="title">HTML</strong>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="min-width: 80%;"> <span> 80%</span> </div>
-                  </div>
+              <div class="col-md-3 col-sm-4">
+                <div class="address-box">
+                  <address>
+                  <ul>
+                    <li> <i class="fa fa-phone"></i> <strong>+440 875 369 200</strong> <strong>+440 875 123 697</strong> </li>
+                    <li> <i class="fa fa-envelope-o"></i> <a href="mailto:">info@jobinn.com</a> </li>
+                    <li> <i class="fa fa-globe"></i> <a href="#">www.jobinn.com</a> </li>
+                  </ul>
+                  </address>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-md-3 col-sm-4">
-            <h2>Related People</h2>
-            <aside>
-              <div class="sidebar">
-                <div class="related-people">
-                  <ul>
-                    <li>
-                      <div class="frame"><a href="#"><img src="images/resumes/related-img-1.jpg" alt="img"></a></div>
-                      <div class="text-box"> <strong class="name"><a href="#">Bettymesfin</a></strong> <span><i class="fa fa-tags"></i>Developer</span> <span><i class="fa fa-map-marker"></i>Atlanta</span> </div>
-                    </li>
-                    <li>
-                      <div class="frame"><a href="#"><img src="images/resumes/related-img-2.jpg" alt="img"></a></div>
-                      <div class="text-box"> <strong class="name"><a href="#">Cammy</a></strong> <span><i class="fa fa-tags"></i>Front Desk Specialist</span> <span><i class="fa fa-map-marker"></i>Berlin</span> </div>
-                    </li>
-                    <li>
-                      <div class="frame"><a href="#"><img src="images/resumes/related-img-3.jpg" alt="img"></a></div>
-                      <div class="text-box"> <strong class="name"><a href="#">Jane Doe</a></strong> <span><i class="fa fa-tags"></i>Marketing Online</span> <span><i class="fa fa-map-marker"></i>Atlanta</span> </div>
-                    </li>
-                    <li>
-                      <div class="frame"><a href="#"><img src="images/resumes/related-img-4.jpg" alt="img"></a></div>
-                      <div class="text-box"> <strong class="name"><a href="#">Angela Haze</a></strong> <span><i class="fa fa-tags"></i>Accountant</span> <span><i class="fa fa-map-marker"></i>Berlin</span> </div>
-                    </li>
-                    <li>
-                      <div class="frame"><a href="#"><img src="images/resumes/related-img-5.jpg" alt="img"></a></div>
-                      <div class="text-box"> <strong class="name"><a href="#">Suzy Biggs</a></strong> <span><i class="fa fa-tags"></i>HR Manager Expert</span> <span><i class="fa fa-map-marker"></i>London, UK</span> </div>
-                    </li>
-                    <li>
-                      <div class="frame"><a href="#"><img src="images/resumes/related-img-6.jpg" alt="img"></a></div>
-                      <div class="text-box"> <strong class="name"><a href="#">Rachael Smith</a></strong> <span><i class="fa fa-tags"></i>Lead Designer</span> <span><i class="fa fa-map-marker"></i>New York, NY</span> </div>
-                    </li>
-                    <li>
-                      <div class="frame"><a href="#"><img src="images/resumes/related-img-1.jpg" alt="img"></a></div>
-                      <div class="text-box"> <strong class="name"><a href="#">Bettymesfin</a></strong> <span><i class="fa fa-tags"></i>Developer</span> <span><i class="fa fa-map-marker"></i>Atlanta</span> </div>
-                    </li>
-                    <li>
-                      <div class="frame"><a href="#"><img src="images/resumes/related-img-2.jpg" alt="img"></a></div>
-                      <div class="text-box"> <strong class="name"><a href="#">Cammy</a></strong> <span><i class="fa fa-tags"></i>Front Desk Specialist</span> <span><i class="fa fa-map-marker"></i>Berlin</span> </div>
-                    </li>
-                    <li>
-                      <div class="frame"><a href="#"><img src="images/resumes/related-img-3.jpg" alt="img"></a></div>
-                      <div class="text-box"> <strong class="name"><a href="#">Jane Doe</a></strong> <span><i class="fa fa-tags"></i>Marketing Online</span> <span><i class="fa fa-map-marker"></i>Atlanta</span> </div>
-                    </li>
-                    <li>
-                      <div class="frame"><a href="#"><img src="images/resumes/related-img-4.jpg" alt="img"></a></div>
-                      <div class="text-box"> <strong class="name"><a href="#">Angela Haze</a></strong> <span><i class="fa fa-tags"></i>Accountant</span> <span><i class="fa fa-map-marker"></i>Berlin</span> </div>
-                    </li>
-                    <li>
-                      <div class="frame"><a href="#"><img src="images/resumes/related-img-5.jpg" alt="img"></a></div>
-                      <div class="text-box"> <strong class="name"><a href="#">Suzy Biggs</a></strong> <span><i class="fa fa-tags"></i>HR Manager Expert</span> <span><i class="fa fa-map-marker"></i>London, UK</span> </div>
-                    </li>
-                    <li>
-                      <div class="frame"><a href="#"><img src="images/resumes/related-img-6.jpg" alt="img"></a></div>
-                      <div class="text-box"> <strong class="name"><a href="#">Rachael Smith</a></strong> <span><i class="fa fa-tags"></i>Lead Designer</span> <span><i class="fa fa-map-marker"></i>New York, NY</span> </div>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </aside>
-          </div>
         </div>
       </div>
     </section>
-    <!--RECENT JOB SECTION END-->
+    <!--CONTACT US END-->
+
   </div>
   <!--MAIN END-->
 
@@ -443,6 +329,8 @@
 <script src="js/jquery-1.11.3.min.js"></script>
 <!--BOOTSTRAP JS-->
 <script src="js/bootstrap.min.js"></script>
+<!--Map Js-->
+<script src="http://maps.google.com/maps/api/js?sensor=false"></script>
 <!--OWL CAROUSEL JS-->
 <script src="js/owl.carousel.min.js"></script>
 <!--BANNER ZOOM OUT IN-->
@@ -450,8 +338,6 @@
 <script src="js/jquery.kenburnsy.js"></script>
 <!--SCROLL FOR SIDEBAR NAVIGATION-->
 <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
-<!--FOR CHECKBOX-->
-<script src="js/form.js"></script>
 <!--CUSTOM JS-->
 <script src="js/custom.js"></script>
 </body>
