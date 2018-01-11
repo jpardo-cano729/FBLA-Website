@@ -333,6 +333,12 @@ strong.logo a {
 #nav li ul li a:before, #nav li ul li a:after {
 	display: none;
 }
+
+#navbar{
+  padding-left: 10%;
+}
+
+
 /* Menu CSS End */
 
 
